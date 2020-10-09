@@ -1,8 +1,8 @@
 import React from 'react'; 
 import ReactDOM from 'react-dom'; 
 
-import Home from './home.js'; 
-import Timer from './timer.js'; 
+import Home from './Home.js'; 
+import Timer from './Timer.js'; 
 
 function isSameDay(aDate, bDate) {
     /* Returns true if aDate and bDate occur on the same day. 
