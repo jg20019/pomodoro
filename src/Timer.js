@@ -7,8 +7,7 @@ class Timer extends React.Component {
     constructor(props) {
         super(props); 
         this.state = {
-            // secondsRemaining: 25 * 60, // 25 minutes
-            secondsRemaining: 5, // 5 seconds 
+            secondsRemaining: 25 * 60  // 25 minutes
             isRunning: true, 
             startTime: new Date(), 
             onCompletion: this.props.onCompletion  
